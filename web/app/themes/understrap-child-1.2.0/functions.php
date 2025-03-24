@@ -8,7 +8,8 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-
+// Add ACF from file
+require_once get_stylesheet_directory() . '/inc/AcfConfigs/allGroups.php';
 
 /**
  * Removes the parent themes stylesheet and scripts from inc/enqueue.php
