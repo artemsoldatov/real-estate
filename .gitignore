@@ -2,6 +2,7 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 !web/app/plugins/real-estate-cpt
+!web/app/plugins/real-estate-api
 web/app/mu-plugins/*/
 web/app/themes/twentytwentyfive/
 web/app/upgrade

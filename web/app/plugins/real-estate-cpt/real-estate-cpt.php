@@ -37,7 +37,7 @@ function register_realestate_post_type(): void {
 		'has_archive'  => true,
 		'rewrite'      => array( 'slug' => 'realestate' ),
 		'menu_icon'    => 'dashicons-building',
-		'supports'     => array( 'title', 'thumbnail' ),
+		'supports'     => array( 'title' ),
 		'show_in_rest' => true,
 	);
 
