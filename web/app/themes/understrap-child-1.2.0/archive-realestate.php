@@ -7,6 +7,11 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
+if ( ! function_exists( 'get_field' ) ) {
+	echo '<div class="alert alert-danger">ACF plugin is not active. Please activate it to display real estate data.</div>';
+	return;
+}
+
 ?>
 
 <div class="wrapper" id="archive-wrapper">
