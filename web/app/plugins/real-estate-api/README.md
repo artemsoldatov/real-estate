@@ -16,6 +16,10 @@
 
 Fetches a list of real estate objects
 
+**Page filter**
+
+- `paged` — Filter by page (1st page default)
+
 **Optional filters:**
 
 - `district` — Filter by taxonomy slug, ID, name
